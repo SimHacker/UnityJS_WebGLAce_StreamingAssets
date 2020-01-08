@@ -29,7 +29,7 @@ class WebGLAce {
             'height: ' + height + 'px; ' +
             'margin: 0; ' +
             'border: 0; ' +
-            'padding: 0;'
+            'padding: 0;';
 
         document.body.appendChild(editorElement);
 
@@ -95,7 +95,7 @@ class WebGLAce {
         editorElement.style.height = height + 'px;';
 
         // TODO
-        editor.resize()
+        editor.resize();
     }
 
 
